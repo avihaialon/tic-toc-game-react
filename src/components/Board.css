@@ -1,0 +1,12 @@
+.board {
+  border: 5px solid darkblue;
+  border-radius: 10px;
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  display: grid;
+  margin-top: 40px;
+  padding-top: 50px;
+  grid-template: repeat(3, 1fr);
+  justify-content: center;
+}
